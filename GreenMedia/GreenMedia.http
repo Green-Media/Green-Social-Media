@@ -1,0 +1,6 @@
+@GreenMedia_HostAddress = http://localhost:5022
+
+GET {{GreenMedia_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
