@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenMedia", "GreenMedia\GreenMedia.csproj", "{EA35A84E-F190-489A-87CD-5F099B5A5EED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenMedia", "GreenMedia\GreenMedia.csproj", "{EA35A84E-F190-489A-87CD-5F099B5A5EED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C82D3CBE-D5C1-4FA9-A691-F64F04772C27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0B16FC27-5644-4729-B151-C5424E1C5945}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +22,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA35A84E-F190-489A-87CD-5F099B5A5EED} = {C82D3CBE-D5C1-4FA9-A691-F64F04772C27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5F0CA10-4E06-4E2B-B744-BC3DFAD320AA}
